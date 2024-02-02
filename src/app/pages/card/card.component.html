@@ -1,7 +1,9 @@
-<div style="border-color: blue; border-radius: 10px;">
-    <div *ngFor="let item of card">
-        {{item.image}}
-        {{item.Title}}
-        {{item.Message}}
+<div *ngFor="let item of card" class="card">
+    <img src="{{item.Photo}}" alt="img">
+    <div class="card-content">
+        <div class="card-title">{{item.Title}}</div>
+        <div class="card-text">{{item.Message}}
+        </div>
+        <a href="#" class="card-button">Learn More</a>
     </div>
 </div>
