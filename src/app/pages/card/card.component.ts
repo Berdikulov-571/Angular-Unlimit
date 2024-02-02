@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -7,17 +7,20 @@ import { Component } from '@angular/core';
 })
 export class CardComponent {
   card: CardData[] = [
-    { image: '../../../assets/photo_2023-12-22_07-46-33.jpg', Message: 'Card-1', Title: 'Image-1' },
-    { image: '../../../assets/photo_2023-12-22_07-46-33.jpg', Message: 'Card-2', Title: 'Image-2' },
-    { image: '../../../assets/photo_2023-12-22_07-46-33.jpg', Message: 'Card-3', Title: 'Image-3' },
-    { image: '../../../assets/photo_2023-12-22_07-46-33.jpg', Message: 'Card-4', Title: 'Image-4' },
-    { image: '../../../assets/photo_2023-12-22_07-46-33.jpg', Message: 'Card-5', Title: 'Image-5' },
-    { image: '../../../assets/photo_2023-12-22_07-46-33.jpg', Message: 'Card-6', Title: 'Image-6' },
+    { Photo: '../../../assets/photo_2023-12-22_07-46-33.jpg', Message: 'LOVE', Title: 'LOVE' },
+    { Photo: '../../../assets/photo_2023-07-27_08-00-51.jpg', Message: 'O\'LIM', Title: 'QABR' },
+    { Photo: '../../../assets/photo_2024-01-03_12-14-11.jpg', Message: 'Sahih Hadis', Title: 'HADIS' },
+    { Photo: '../../../assets/photo_2023-12-05_16-37-42.jpg', Message: '.NET DEVELOPER', Title: 'Nurmuhammad Davletov' },
+    { Photo: '../../../assets/screenshot 2023-12-15 084857.png', Message: 'Map Uzbekistan', Title: 'MAP' },
   ];
+
+  search(text: string) {
+    this.card = this.card.filter(x => x.Title == text);
+  }
 }
 
 export interface CardData {
-  image: string;
+  Photo: string;
   Title: string;
   Message: string;
 }
