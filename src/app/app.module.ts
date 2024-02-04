@@ -20,3 +20,4 @@ import { CardComponent } from './pages/card/card.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
