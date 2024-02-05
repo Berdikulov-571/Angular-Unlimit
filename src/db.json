@@ -1,0 +1,64 @@
+{
+    "cardData": [
+        {
+            "id": 1,
+            "Photo": "../../../assets/photo_2023-12-22_07-46-33.jpg",
+            "Message": "LOVE",
+            "Title": "LOVE"
+        },
+        {
+            "id": 2,
+            "Photo": "../../../assets/photo_2023-07-27_08-00-51.jpg",
+            "Message": "O'LIM",
+            "Title": "QABR"
+        },
+        {
+            "id": 3,
+            "Photo": "../../../assets/photo_2024-01-03_12-14-11.jpg",
+            "Message": "Sahih Hadis",
+            "Title": "HADIS"
+        },
+        {
+            "id": 4,
+            "Photo": "../../../assets/photo_2023-12-05_16-37-42.jpg",
+            "Message": ".NET DEVELOPER",
+            "Title": "Nurmuhammad"
+        },
+        {
+            "id": 5,
+            "Photo": "../../../assets/screenshot 2023-12-15 084857.png",
+            "Message": "Map Uzbekistan",
+            "Title": "MAP"
+        },
+        {
+            "id": 6,
+            "Photo": "../../../assets/screenshot 2023-12-15 084857.png",
+            "Message": "Map Uzbekistan",
+            "Title": "MAP"
+        },
+        {
+            "id": 7,
+            "Photo": "../../../assets/photo_2024-01-03_12-14-11.jpg",
+            "Message": "Sahih Hadis",
+            "Title": "HADIS"
+        },
+        {
+            "id": 8,
+            "Photo": "../../../assets/photo_2023-07-27_08-00-51.jpg",
+            "Message": "O'LIM",
+            "Title": "QABR"
+        },
+        {
+            "id": 9,
+            "Photo": "../../../assets/photo_2023-12-05_16-37-42.jpg",
+            "Message": ".NET DEVELOPER",
+            "Title": "Nurmuhammad"
+        },
+        {
+            "id": 10,
+            "Photo": "../../../assets/photo_2023-12-22_07-46-33.jpg",
+            "Message": "LOVE",
+            "Title": "LOVE"
+        }
+    ]
+}
