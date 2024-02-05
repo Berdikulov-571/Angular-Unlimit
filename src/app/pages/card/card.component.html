@@ -3,7 +3,7 @@
     <button (click)="search(inputData.value)" class="beautiful-button">Find</button>
 </div>
 
-<div [routerLink]="['details',item.Id]" *ngFor="let item of filteredData" class="card">
+<div [routerLink]="['details',item.id]" *ngFor="let item of filteredData" class="card">
     <img src="{{item.Photo}}" alt="img">
     <div class="card-content">
         <div class="card-title">{{item.Title}}</div>
