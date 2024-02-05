@@ -4,4 +4,15 @@
         <div class="card-title">{{card?.Title}}</div>
         <div class="card-message">{{card?.Message}}</div>
     </div>
+    <form [formGroup]="form">
+        <p>
+            <label for="name">Name </label>
+            <input name="name" id="name" type="text" formControlName="name">
+        </p>
+        <p>
+            <label for="age">Age</label>
+            <input name="age" id="age" type="text" formControlName="age">
+        </p>
+        <button (click)="send()" type="submit">Submit</button>
+    </form>
 </div>
