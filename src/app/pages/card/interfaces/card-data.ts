@@ -1,5 +1,5 @@
 export interface CardData {
-    Id: number;
+    id: number;
     Photo: string;
     Title: string;
     Message: string;
