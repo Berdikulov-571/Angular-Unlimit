@@ -23,7 +23,9 @@ export class DetailsComponent {
 
   constructor(private route: ActivatedRoute, private cardService: CardService) {
     const wordId: string = this.route.snapshot.params['id']
-    this.card = this.cardService.getCardById(+wordId);
+    this.cardService.getById(+wordId).then(x => {
+      this.card = x;
+    });
   }
 
   send() {
